@@ -1,0 +1,71 @@
+Date Formatting Codes
+%Y: Year with century as a decimal number (e.g., 2024).
+
+Example: print(time.strftime("%Y")) → 2024
+%y: Year without century as a zero-padded decimal number (e.g., 24 for 2024).
+
+Example: print(time.strftime("%y")) → 24
+%m: Month as a zero-padded decimal number (e.g., 08 for August).
+
+Example: print(time.strftime("%m")) → 08
+%B: Full month name (e.g., August).
+
+Example: print(time.strftime("%B")) → August
+%b: Abbreviated month name (e.g., Aug).
+
+Example: print(time.strftime("%b")) → Aug
+%d: Day of the month as a zero-padded decimal number (e.g., 28).
+
+Example: print(time.strftime("%d")) → 28
+%A: Full weekday name (e.g., Wednesday).
+
+Example: print(time.strftime("%A")) → Wednesday
+%a: Abbreviated weekday name (e.g., Wed).
+
+Example: print(time.strftime("%a")) → Wed
+%w: Weekday as a decimal number, where Sunday is 0 and Saturday is 6.
+
+Example: print(time.strftime("%w")) → 3 (for Wednesday)
+%j: Day of the year as a zero-padded decimal number (e.g., 240 for August 28).
+
+Example: print(time.strftime("%j")) → 240
+%U: Week number of the year (Sunday as the first day of the week), zero-padded (e.g., 35).
+
+Example: print(time.strftime("%U")) → 35
+%W: Week number of the year (Monday as the first day of the week), zero-padded (e.g., 34).
+
+Example: print(time.strftime("%W")) → 34
+Time Formatting Codes
+%H: Hour (24-hour clock) as a zero-padded decimal number (e.g., 14 for 2 PM).
+
+Example: print(time.strftime("%H")) → 14
+%I: Hour (12-hour clock) as a zero-padded decimal number (e.g., 02 for 2 PM).
+
+Example: print(time.strftime("%I")) → 02
+%p: AM or PM.
+
+Example: print(time.strftime("%p")) → PM
+%M: Minute as a zero-padded decimal number (e.g., 30).
+
+Example: print(time.strftime("%M")) → 30
+%S: Second as a zero-padded decimal number (e.g., 00).
+
+Example: print(time.strftime("%S")) → 00
+%f: Microsecond as a decimal number (zero-padded on the left) (e.g., 000000).
+
+Example: print(time.strftime("%f")) → 000000 (Note: only works with datetime objects)
+%Z: Time zone name (e.g., UTC).
+
+Example: print(time.strftime("%Z")) → UTC
+%z: UTC offset in the form +HHMM or -HHMM (e.g., +0000).
+
+Example: print(time.strftime("%z")) → +0000
+%X: Time representation (locale’s appropriate time representation).
+
+Example: print(time.strftime("%X")) → 14:30:00
+%c: Date and time representation (locale’s appropriate date and time representation).
+
+Example: print(time.strftime("%c")) → Wed Aug 28 14:30:00 2024
+%x: Date representation (locale’s appropriate date representation).
+
+Example: print(time.strftime("%x")) → 08/28/24

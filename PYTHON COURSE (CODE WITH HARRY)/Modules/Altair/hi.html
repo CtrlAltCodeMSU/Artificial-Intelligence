@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Vega Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <h2>Fruit Frequency Bar Chart</h2>
+    <!-- Container for the Vega chart -->
+    <div id="chart"></div>
+
+    <script type="text/javascript">
+        // Vega-Lite specification for the chart
+        const spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "description": "A simple bar chart showing the frequency of fruits.",
+            "data": {
+                "values": [
+                    {"Fruit": "apple", "Count": 10},
+                    {"Fruit": "banana", "Count": 20},
+                    {"Fruit": "orange", "Count": 1}
+                ]
+            },
+            "mark": "bar",
+            "encoding": {
+                "x": {"field": "Fruit", "type": "nominal"},
+                "y": {"field": "Count", "type": "quantitative"}
+            }
+        };
+
+        // Embed the Vega chart in the container
+        vegaEmbed('#chart', spec).catch(console.error);
+    </script>
+</body>
+</html>

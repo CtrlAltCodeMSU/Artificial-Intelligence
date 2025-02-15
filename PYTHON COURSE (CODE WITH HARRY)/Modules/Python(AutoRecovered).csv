@@ -1,0 +1,35 @@
+ID,Name,Age,Department,Salary,Join Date
+1,Alice Johnson,28,HR,55000,3/15/2021
+2,Bob Smith,34,Finance,68000,6/22/2019
+3,Catherine Green,30,IT,72000,10/30/2020
+4,David White,25,Marketing,49000,1/10/2022
+5,Eva Adams,29,Sales,62000,12/5/2018
+6,Frank Brown,31,HR,56000,5/12/2021
+7,Grace Lee,26,Finance,59000,3/19/2019
+8,Henry Miller,27,IT,68000,9/7/2021
+9,Isabella Martinez,33,Marketing,51000,11/14/2020
+10,Jack Wilson,24,Sales,52000,7/2/2022
+11,Kara Davis,35,HR,61000,8/11/2018
+12,Liam Moore,32,Finance,70000,10/21/2019
+13,Mia Taylor,28,IT,66000,6/30/2020
+14,Noah Anderson,30,Marketing,48000,4/18/2021
+15,Olivia Jackson,29,Sales,60000,2/26/2019
+16,Paul Harris,31,HR,55000,8/16/2021
+17,Quincy Martin,27,Finance,67000,3/12/2020
+18,Rachel Thompson,26,IT,71000,7/24/2019
+19,Samuel Wright,33,Marketing,50000,1/28/2022
+20,Tina Lewis,34,Sales,64000,9/9/2020
+21,Uma Scott,25,HR,54000,2/19/2021
+22,Victor Young,30,Finance,69000,12/8/2019
+23,Wendy King,29,IT,72000,11/23/2021
+24,Xander Baker,32,Marketing,47000,5/10/2022
+25,Yara Perez,28,Sales,63000,4/15/2019
+26,Zack Allen,31,HR,58000,12/17/2020
+,,,,,
+,,,,,
+,Feature,Categorical Data,Numerical Data,,
+,Definition,Describes categories or labels,Represents measurable quantities,,
+,Values,Words or labels,Numbers,,
+,Types,"Nominal, Ordinal","Discrete, Continuous",,
+,Operations,No mathematical operations,Mathematical operations possible,,
+,Examples,"Colors (red, blue, green)","Age (25, 30), Weight (70kg, 80kg)",,
