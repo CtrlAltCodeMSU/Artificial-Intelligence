@@ -9,6 +9,8 @@ if(a%2==0):
   print("Number is even")
 else:
   print("The number is odd")
+  
+print("Its done")
     
 # print("The entered number is: " , a)
 
