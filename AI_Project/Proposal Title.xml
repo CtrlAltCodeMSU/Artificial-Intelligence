@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <paragraph index="9" node_type="writer">Energy-Efficient Generative AI: Optimizing Retrieval-Augmented Generation (RAG) with FAISS, HuggingFace, and Groq API (Llama 3-70B)</paragraph>
+ <paragraph index="10" node_type="writer">Summary</paragraph>
+ <paragraph index="11" node_type="writer">This research proposal focuses on a retrieval-augmented generation (RAG) based generative text model utilizing FAISS vector store, HuggingFace embeddings, and Groq API (Llama 3-70B). The objective is to improve the energy efficiency of large language models (LLMs), aligning with Green AI principles. The study will explore methods like reducing model size, using less computing power, and optimizing how the model works.. The final aim is to create a faster, cheaper, and greener AI system.</paragraph>
+ <paragraph index="12" node_type="writer">Introduction </paragraph>
+ <paragraph index="13" node_type="writer">Generative AI models use a lot of energy, making them expensive and less eco-friendly. This research aims to make a text-generating model more efficient using FAISS, HuggingFace embeddings, and Groq API. The goal is to reduce energy use while keeping the model fast and accurate.</paragraph>
+ <paragraph index="14" node_type="writer">Related Work</paragraph>
+ <paragraph index="15" node_type="writer">Researchers have worked   on energy-efficient AI models like Evolved Transformer and Primer, designed using Neural Architecture Search (NAS). The concept of Green AI was introduced to balance performance and energy use. Studies also emphasize the need to publish ML energy consumption data for transparency. This work builds on these ideas to develop more efficient AI models</paragraph>
+ <paragraph index="16" node_type="writer">Methodology</paragraph>
+ <paragraph index="17" node_type="writer">This research improves a text-generating AI model using FAISS, HuggingFace embeddings, and Groq API (Llama 3-70B). The model finds answers by searching a document with FAISS vector search. To use less energy, methods like making the model smaller and running it more efficiently are applied. Energy use and computing costs are measured to see improvements. The goal is to make AI faster, cheaper, and more eco-friendly while keeping it accurate.</paragraph>
+ <paragraph index="18" node_type="writer">Dataset</paragraph>
+ <paragraph index="19" node_type="writer">This research uses PDF documents as the dataset, which are processed using FAISS vector search for retrieval-based text generation.</paragraph>
+ <paragraph index="20" node_type="writer">References </paragraph>
+ <paragraph index="21" node_type="writer">  Schwartz, R., et al., 2020. Green AI. Communications of the ACM, 63(12)​.</paragraph>
+ <paragraph index="22" node_type="writer">  Lacoste, A., et al., 2019. Quantifying the Carbon Emissions of Machine Learning. arXiv:1910.09700​.</paragraph>
+ <paragraph index="23" node_type="writer">  Bender, E.M., et al., 2021. On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? ACM Conference on Fairness, Accountability, and Transparency​.</paragraph>
+ <paragraph index="24" node_type="writer">So, D.R., et al., 2019. The Evolved Transformer. International Conference on Machine Learning​</paragraph>
+ <paragraph index="25" node_type="writer">Performance Measures</paragraph>
+ <paragraph index="26" node_type="writer">The performance of the generative text model will be measured using the following metrics:</paragraph>
+ <paragraph index="27" node_type="writer">Energy Consumption – Measuring the power usage of training and inference to evaluate efficiency.</paragraph>
+ <paragraph index="28" node_type="writer">Processing Speed – Checking response time and latency for generating text.</paragraph>
+ <paragraph index="29" node_type="writer">Accuracy &amp; Relevance – Assessing the correctness of generated responses using benchmark datasets.</paragraph>
+ <paragraph index="30" node_type="writer">Computational Cost – Comparing hardware resource usage before and after optimization.</paragraph>
+ <paragraph index="31" node_type="writer">Carbon Footprint Reduction – Estimating the decrease in environmental impact due to model optimizations.</paragraph>
+</indexing>
